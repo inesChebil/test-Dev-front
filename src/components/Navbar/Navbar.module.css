@@ -1,0 +1,98 @@
+.NavbarContainer {
+  /* width: 100vw;
+  max-width: 1100px;
+  position: fixed;
+  z-index: 999;
+  height: 70px; */
+  /* max-width: 1100px; */
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  z-index: 999;
+}
+.Navbar {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  /* background: pink; */
+  background: #fff;
+}
+.Navbar > * {
+  width: 30%;
+  height: 100%;
+  /* padding: 0 30px; */
+  padding: 17px 139px;
+  /* color: black; */
+  border: 1px solid #e2e2e2;
+}
+.navbarElIcon {
+  display: flex;
+}
+
+.navbarElIcon input,
+.navbarElIcon input:focus,
+.navbarElIcon input:hover,
+.navbarElIcon input:active,
+.navbarElIcon input.active {
+  outline: none;
+  border: none;
+}
+.navbarElIcon .search {
+  transform: translateX(-50%);
+}
+.magasin {
+  transition: transform 0.1s ease-in;
+}
+.magasin .mgIcon2 {
+  display: none;
+  margin-left: -65px;
+}
+.magasin:hover {
+  transform: translateX(-10px);
+}
+.magasin:hover .mgIcon1 {
+  display: none;
+}
+.magasin:hover .mgIcon2 {
+  display: block;
+}
+.config {
+  background: #7daf3f;
+}
+.config:hover {
+  background: #4d302b;
+}
+.subNav {
+  display: flex;
+
+  height: 50px;
+  width: 80%;
+
+  margin: 50px auto 0 auto;
+  /* flex-direction: column; */
+}
+.subNav > * {
+  padding: 17px 100px;
+  border: 1px solid #e2e2e2;
+  /* width: 25%; */
+  text-align: start;
+  background: #fff;
+  /* text-align: center; */
+}
+/* .subNav .contactUsForm {
+  padding: inherit;
+} */
+.subNav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* utilities */
+.mxright {
+  margin-right: 15px;
+}
+.mxleft {
+  margin-left: 15px;
+}

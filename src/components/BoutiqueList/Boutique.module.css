@@ -1,0 +1,14 @@
+.boutiqueList {
+  background-color: #fff;
+  z-index: 500;
+}
+.btn {
+  display: inline-block;
+  width: inherit;
+  padding: 10px 40px;
+  text-align: center;
+  cursor: pointer;
+  background: #7daf3f;
+  color: #fff;
+  border: none;
+}

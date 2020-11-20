@@ -1,0 +1,9 @@
+.accueil {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.footer {
+  /* margin-top: 120px; */
+}

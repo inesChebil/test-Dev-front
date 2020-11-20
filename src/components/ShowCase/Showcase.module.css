@@ -1,0 +1,94 @@
+.showcase {
+  height: 2000px;
+  background: #dcdcdc;
+}
+.first {
+  width: -webkit-fill-available;
+}
+.container {
+  width: 80%;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* column-gap: 1px; */
+}
+.container > * {
+  position: relative;
+  margin-right: 25px;
+}
+.container > * div {
+  position: relative;
+  color: #fff;
+  top: -110px;
+  right: -70px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.container > :nth-child(6) {
+  position: relative;
+  grid-column: 1 / span 6;
+  width: 100%;
+  /* margin-top: -65px; */
+}
+.container > :nth-child(6) img {
+  position: absolute;
+  width: inherit;
+}
+.container > :nth-child(6) h1 {
+  position: absolute;
+  color: #fff;
+  top: 20px;
+  left: 270px;
+}
+.container > :nth-child(6) div {
+  width: 80%;
+  position: absolute;
+  top: 80px;
+  left: 270px;
+  color: #fff;
+  /* top: -140px;
+  right: -250px; */
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.container > :nth-child(6) div p {
+  width: 80%;
+}
+/* .container > :nth-child(6) div .arrowRight {
+  position: relative;
+  background: red;
+} */
+
+.realisationContainer {
+  width: 100vw;
+  display: flex;
+  height: 600px;
+}
+.realisationContainer img {
+  width: -webkit-fill-available;
+}
+.card {
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  line-height: 1.5;
+  padding: 20px;
+  margin: 80px -90px 90px 150px;
+  z-index: 500;
+  position: relative;
+}
+.card p {
+  margin-top: 30px;
+  font-weight: 100;
+}
+.card .arrowLeft {
+  margin-right: 18px;
+}
+.card div {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+}

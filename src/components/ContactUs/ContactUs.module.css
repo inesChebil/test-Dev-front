@@ -1,0 +1,72 @@
+.contactUs {
+  padding: inherit;
+  z-index: 999;
+  background: #fff;
+}
+.imageContainer {
+  position: relative;
+}
+.contactUs .imageContainer img {
+  width: -webkit-fill-available;
+}
+.contactUs .imageContainer h1 {
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  color: #fff;
+  font-size: larger;
+}
+.subForm {
+  background: #fff;
+  /* margin: 15px; */
+}
+.subForm h3 {
+  font-size: smaller;
+
+  padding: 20px 20px 2px 20px;
+}
+.formControl {
+  margin: 20px auto;
+}
+.contactUs .formControl input[type="text"],
+.contactUs .formControl input[type="email"] {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 90%;
+  margin-left: 10px;
+  padding: 19px;
+  font-size: 16px;
+}
+.contactUs .formControl label {
+  display: block;
+  /* margin-bottom: 10px; */
+  margin-left: 10px;
+  padding: 19px;
+  filter: opacity(0.7);
+}
+.contactUs .formControl textarea {
+  border: 0;
+  border: 1px solid #b4becb;
+  width: 100%;
+  padding: 4px;
+  font-size: 16px;
+  width: 80%;
+  margin-left: 25px;
+}
+.contactUs .formControl input:focus,
+.contactUs .formControl textarea:focus {
+  outline: none;
+}
+.submit {
+  /* width: 100%;
+  text-align: center; */
+  display: inline-block;
+  padding: 18px 30px;
+  cursor: pointer;
+  background: #7daf3f;
+  color: #fff;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  /* border-radius: 5px; */
+}
