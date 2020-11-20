@@ -12,7 +12,7 @@ const Navbar = () => {
   const [showContactUs, setShowContactUs] = useState(false);
   const [showBoutique, setShowBoutique] = useState(false);
 
-  const contact = !showContactUs ? (
+  const contact = showContactUs ? (
     <ContactUs
       className={classes.contactUsForm}
       onHide={() => setShowContactUs(false)}
